@@ -63,15 +63,15 @@ The AI video generation landscape in 2026 is dominated by six major providers. H
 
 | Model | Provider | Max Res | Max Duration | Audio | Multi-shot | NSFW | Open Source | Atlas Price |
 |:------|:---------|:--------|:-------------|:-----:|:----------:|:----:|:----------:|:------------|
-| **Kling 3.0 Pro** | Kuaishou | 4K | 15s | ✅ | ✅ | ✅* | ❌ | $0.204/req |
-| **Kling O3 Pro** | Kuaishou | 4K | 15s | ✅ | ✅ | ✅* | ❌ | $0.204/req |
-| **Kling O1** | Kuaishou | 1080p | 10s | ✅ | ❌ | ✅* | ❌ | $0.15/req |
-| **Kling 2.6 Pro** | Kuaishou | 4K | 10s | ✅ | ✅ | ✅* | ❌ | $0.15/req |
-| **Seedance v1.5 Pro** | ByteDance | 1080p | 15s | ✅ | ✅ | ✅* | ❌ | $0.222/req |
-| **Seedance v1 Pro** | ByteDance | 1080p | 10s | ✅ | ❌ | ✅* | ❌ | $0.18/req |
-| **Wan 2.6** | Alibaba | 1080p | 15s | ✅ | ✅ | ❌ | ✅ | $0.07/req |
-| **Wan 2.5** | Alibaba | 1080p | 10s | ✅ | ❌ | ❌ | ✅ | $0.05/req |
-| **Wan 2.2 Spicy** | Alibaba | 720p | 8s | ❌ | ❌ | ✅ | ✅ | $0.03/req |
+| **Kling 3.0 Pro** | Kuaishou | 4K | 15s | ✅ | ✅ | ✅* | ❌ | from $0.204/s |
+| **Kling O3 Pro** | Kuaishou | 4K | 15s | ✅ | ✅ | ✅* | ❌ | from $0.204/s |
+| **Kling O1** | Kuaishou | 1080p | 10s | ✅ | ❌ | ✅* | ❌ | from $0.15/s |
+| **Kling 2.6 Pro** | Kuaishou | 4K | 10s | ✅ | ✅ | ✅* | ❌ | from $0.15/s |
+| **Seedance v1.5 Pro** | ByteDance | 1080p | 15s | ✅ | ✅ | ✅* | ❌ | from $0.222/s |
+| **Seedance v1 Pro** | ByteDance | 1080p | 10s | ✅ | ❌ | ✅* | ❌ | from $0.18/s |
+| **Wan 2.6** | Alibaba | 1080p | 15s | ✅ | ✅ | ❌ | ✅ | from $0.07/s |
+| **Wan 2.5** | Alibaba | 1080p | 10s | ✅ | ❌ | ❌ | ✅ | from $0.05/s |
+| **Wan 2.2 Spicy** | Alibaba | 720p | 8s | ❌ | ❌ | ✅ | ✅ | from $0.03/s |
 | **Veo 3.1** | Google | 1080p | 8s | ✅ | ❌ | ❌ | ❌ | TBD |
 | **Veo 3** | Google | 1080p | 8s | ✅ | ❌ | ❌ | ❌ | TBD |
 | **Veo 2** | Google | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | TBD |
@@ -80,6 +80,8 @@ The AI video generation landscape in 2026 is dominated by six major providers. H
 | **Vidu Q3 Pro** | Vidu | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | TBD |
 
 > *\*NSFW via Atlas Cloud uncensored mode*
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 ### Quick Feature Matrix
 
@@ -214,9 +216,9 @@ print(response.json())
 
 ## 🔮 Wan (Alibaba)
 
-> **Best for:** Budget-friendly generation, open-source deployment, NSFW content, LoRA customization
+> **Best for:** Budget-friendly generation, NSFW content, LoRA customization
 
-Wan is Alibaba's open-source AI video generation model family, offering the best price-performance ratio in the market and full open-source access for local deployment.
+Wan is Alibaba's AI video generation model family, offering the best price-performance ratio in the market. Wan 2.1/2.2 are open-source (Apache 2.0) and can be deployed locally, while Wan 2.5/2.6 are closed-source commercial API models.
 
 ### Model Lineup
 
@@ -233,7 +235,7 @@ Wan is Alibaba's open-source AI video generation model family, offering the best
 
 ### Local Deployment
 
-Wan models are fully open-source, meaning you can run them locally:
+Wan 2.1/2.2 are open-source (Apache 2.0) and can be run locally:
 
 ```bash
 # Local deployment of Wan 2.6 (requires high-performance GPU)
@@ -269,7 +271,7 @@ payload = {
     "resolution": "1080p"                # Output resolution
 }
 
-# Only costs $0.07 per request
+# Costs from $0.07 per second
 response = requests.post(url, json=payload, headers=headers)
 print(response.json())
 ```
@@ -472,7 +474,7 @@ Choosing the right model for your project:
 | 🎨 Animation | Wan 2.2 | Character tools, LoRA support | $0.03 | Hailuo 2.3 |
 | 📐 Precise Control | Vidu Q3 Pro | Start-end frames, reference videos | TBD | Kling O3 Pro |
 | 🏢 Enterprise | Kling 3.0 Pro | Highest quality, consistent results | $0.204 | Veo 3.1 |
-| 💰 Budget Projects | Wan 2.2 Spicy | Lowest cost per video | $0.03 | Wan 2.6 Flash |
+| 💰 Budget Projects | Wan 2.2 Spicy | Lowest cost per second | $0.03 | Wan 2.6 Flash |
 
 > *\*Atlas Cloud uncensored mode available for select models*
 
@@ -767,13 +769,13 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 
 | Model | fal.ai Price | Atlas Cloud Price | You Save |
 |:------|:------------|:-----------------|:---------|
-| **Kling** | $0.224/sec (5s = $1.12) | $0.204/req | **82% cheaper** |
-| **Seedance** | ~$0.26/video | $0.222/req | **15% cheaper** |
-| **Wan 2.5** | $0.05/sec (5s = $0.25) | $0.05/req | **80% cheaper** |
-| **Wan 2.6** | Similar pricing | $0.07/req | Competitive |
+| **Kling** | $0.224/sec (5s = $1.12) | from $0.204/s | **82% cheaper** |
+| **Seedance** | ~$0.26/video | from $0.222/s | **15% cheaper** |
+| **Wan 2.5** | $0.05/sec (5s = $0.25) | from $0.05/s | **80% cheaper** |
+| **Wan 2.6** | Similar pricing | from $0.07/s | Competitive |
 | **Veo 3** | $0.40/sec (8s = $3.20) | TBD | Coming soon |
-| **Vidu Q3-Pro** | — | $0.06/req | Atlas exclusive |
-| **Vidu Q3-Turbo** | — | $0.034/req | Atlas exclusive |
+| **Vidu Q3-Pro** | — | from $0.06/s | Atlas exclusive |
+| **Vidu Q3-Turbo** | — | from $0.034/s | Atlas exclusive |
 
 > 💡 Atlas Cloud offers the **lowest prices** across all major video models. Switch from fal.ai and save up to **82%** on your video generation costs.
 
@@ -819,7 +821,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 
 The "best" depends on your needs:
 - **Highest quality:** Kling 3.0 Pro (4K, cinematic quality)
-- **Best value:** Wan 2.6 ($0.07/video, open source)
+- **Best value:** Wan 2.6 (from $0.07/s)
 - **Best audio:** Seedance v1.5 Pro (audio synchronization)
 - **Best physics:** Veo 3.1 (Google's physics understanding)
 - **Fastest:** Wan 2.6 Flash or Hailuo 2.3 Fast
@@ -827,7 +829,7 @@ The "best" depends on your needs:
 
 ### What is the cheapest AI video generation API?
 
-Wan 2.2 Spicy at **$0.03/video** is the cheapest commercial API available. Wan 2.6 at **$0.07/video** offers the best quality-to-price ratio. Via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683), you also get a 25% bonus on first recharge.
+Wan 2.2 Spicy at **from $0.03/s** is the cheapest commercial API available. Wan 2.6 at **from $0.07/s** offers the best quality-to-price ratio. Via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683), you also get a 25% bonus on first recharge.
 
 ### How to generate AI video with API?
 
@@ -847,19 +849,19 @@ See the [Quick Start section](#-quick-start--unified-api) for complete code exam
 | Price | $$$ | $$$ | $ |
 | Speed | Medium | Medium | Fast |
 | Audio | ✅ | ✅ (Best) | ✅ |
-| Open Source | ❌ | ❌ | ✅ |
+| Open Source | ❌ | ❌ | Partial* |
 | NSFW | Via Atlas* | Via Atlas* | ❌ |
 | 4K Support | ✅ | ❌ | ❌ |
 
-**TL;DR:** Choose Kling for maximum quality, Seedance for audio-heavy projects, Wan for budget/open-source needs.
+**TL;DR:** Choose Kling for maximum quality, Seedance for audio-heavy projects, Wan for budget needs.
 
 ### What is the best AI video model for NSFW content?
 
-**Wan 2.2 Spicy** is specifically designed for uncensored content at just $0.03/video. Additionally, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) offers an uncensored mode for select premium models like Kling and Seedance, providing higher quality NSFW generation.
+**Wan 2.2 Spicy** is specifically designed for uncensored content at just from $0.03/s. Additionally, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) offers an uncensored mode for select premium models like Kling and Seedance, providing higher quality NSFW generation.
 
 ### How to generate AI video locally?
 
-The **Wan** model family is fully open source and can be deployed locally:
+**Wan 2.1/2.2** are open-source (Apache 2.0) and can be deployed locally:
 
 1. **Hardware:** NVIDIA A100 (80GB) recommended, or RTX 4090 for smaller models
 2. **Software:** Python 3.10+, CUDA 12.0+, PyTorch 2.0+
@@ -877,7 +879,7 @@ Atlas Cloud currently supports **106 video models** from 6 providers: Kuaishou (
 
 While most high-quality models require payment, you can:
 1. **Free trial:** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) offers free credits on signup
-2. **Open source:** Deploy Wan models locally for free (hardware costs apply)
+2. **Open source:** Deploy Wan 2.1/2.2 locally for free (hardware costs apply)
 3. **Community:** Use Hugging Face Spaces for basic video generation
 
 ### What video resolutions are supported?
@@ -903,7 +905,7 @@ Why limit yourself to one model? Atlas Cloud gives you access to every major AI 
 
 - ✅ **106 Video Models** from 6 providers
 - ✅ **Uncensored:** Full creative freedom
-- ✅ **From $0.03/video:** Industry's lowest prices
+- ✅ **From $0.03/s:** Industry's lowest prices
 - ✅ **25% Bonus** on first top-up (up to $100)
 - ✅ **One API key** for Kling, Seedance, Wan, Veo, Hailuo, Vidu
 - ✅ **99.9% uptime** with global CDN delivery
