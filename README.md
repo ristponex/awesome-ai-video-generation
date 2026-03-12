@@ -72,12 +72,12 @@ The AI video generation landscape in 2026 is dominated by six major providers. H
 | **Wan 2.6** | Alibaba | 1080p | 15s | ✅ | ✅ | ❌ | ✅ | from $0.07/s |
 | **Wan 2.5** | Alibaba | 1080p | 10s | ✅ | ❌ | ❌ | ✅ | from $0.05/s |
 | **Wan 2.2 Spicy** | Alibaba | 720p | 8s | ❌ | ❌ | ✅ | ✅ | from $0.03/s |
-| **Veo 3.1** | Google | 1080p | 8s | ✅ | ❌ | ❌ | ❌ | TBD |
-| **Veo 3** | Google | 1080p | 8s | ✅ | ❌ | ❌ | ❌ | TBD |
-| **Veo 2** | Google | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | TBD |
-| **Hailuo 2.3 Pro** | MiniMax | 1080p | 10s | ✅ | ❌ | ❌ | ❌ | TBD |
-| **Hailuo 02 Pro** | MiniMax | 1080p | 10s | ✅ | ❌ | ❌ | ❌ | TBD |
-| **Vidu Q3 Pro** | Vidu | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | TBD |
+| **Veo 3.1** | Google | 1080p | 8s | ✅ | ❌ | ❌ | ❌ | from $0.023/s |
+| **Veo 3** | Google | 1080p | 8s | ✅ | ❌ | ❌ | ❌ | from $0.023/s |
+| **Veo 2** | Google | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | from $0.056/s |
+| **Hailuo 2.3 Pro** | MiniMax | 1080p | 10s | ✅ | ❌ | ❌ | ❌ | from $0.049/s |
+| **Hailuo 02 Pro** | MiniMax | 1080p | 10s | ✅ | ❌ | ❌ | ❌ | from $0.08/s |
+| **Vidu Q3 Pro** | Vidu | 1080p | 8s | ❌ | ❌ | ❌ | ❌ | from $0.012/s |
 
 > *\*NSFW via Atlas Cloud uncensored mode*
 
@@ -469,10 +469,10 @@ Choosing the right model for your project:
 | 🔞 NSFW Content | Wan 2.2 Spicy | Uncensored, cheapest available | $0.03 | Kling 3.0 (Atlas*) |
 | ⚡ Quick Prototype | Wan 2.6 Flash | Fastest generation, lowest cost | $0.04 | Hailuo 2.3 Fast |
 | 🎵 Music Video | Seedance v1.5 | Audio synchronization, creative camera | $0.222 | Veo 3 |
-| 📚 Education | Veo 3.1 | Physics accuracy, natural motion | TBD | Wan 2.6 |
+| 📚 Education | Veo 3.1 | Physics accuracy, natural motion | $0.18 | Wan 2.6 |
 | 🎮 Game Assets | Wan 2.6 V2V | Style transfer, V2V transformation | $0.07 | Vidu Q3 Pro |
 | 🎨 Animation | Wan 2.2 | Character tools, LoRA support | $0.03 | Hailuo 2.3 |
-| 📐 Precise Control | Vidu Q3 Pro | Start-end frames, reference videos | TBD | Kling O3 Pro |
+| 📐 Precise Control | Vidu Q3 Pro | Start-end frames, reference videos | $0.06 | Kling O3 Pro |
 | 🏢 Enterprise | Kling 3.0 Pro | Highest quality, consistent results | $0.204 | Veo 3.1 |
 | 💰 Budget Projects | Wan 2.2 Spicy | Lowest cost per second | $0.03 | Wan 2.6 Flash |
 
@@ -740,8 +740,8 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 | Seedance v1.5 Pro (10s) | $0.222 | $0.40 | **44% off** |
 | Wan 2.6 (10s) | $0.07 | $0.12 | **42% off** |
 | Wan 2.2 Spicy (8s) | $0.03 | N/A (self-host) | **Managed** |
-| Veo 3.1 (8s) | TBD | $0.50+ | **—** |
-| Hailuo 2.3 Pro (10s) | TBD | $0.30 | **—** |
+| Veo 3.1 (8s) | $0.18 | $0.50+ | **64% off** |
+| Hailuo 2.3 Pro (10s) | $0.49 | $0.30 | **Managed** |
 
 ### Cost Per Second Breakdown
 
@@ -773,7 +773,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 | **Seedance** | ~$0.26/video | from $0.044/s | **15% cheaper** |
 | **Wan 2.5** | $0.05/sec (5s = $0.25) | from $0.05/s | **80% cheaper** |
 | **Wan 2.6** | Similar pricing | from $0.07/s | Competitive |
-| **Veo 3** | $0.40/sec (8s = $3.20) | TBD | Coming soon |
+| **Veo 3** | $0.40/sec (8s = $3.20) | from $0.023/s | **94% cheaper** |
 | **Vidu Q3-Pro** | — | from $0.06/s | Atlas exclusive |
 | **Vidu Q3-Turbo** | — | from $0.034/s | Atlas exclusive |
 
