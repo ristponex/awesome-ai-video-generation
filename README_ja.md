@@ -7,7 +7,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Models](https://img.shields.io/badge/動画モデル-106-blue.svg)](https://www.atlascloud.ai?ref=JPM683)
+[![Models](https://img.shields.io/badge/動画モデル-106-blue.svg)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 [![Last Updated](https://img.shields.io/badge/更新-2026年3月-green.svg)](#)
 
 **AI 動画生成モデル、ツール、API、リソースの厳選コレクション**
@@ -25,7 +25,7 @@
 
 ## 🚀 106動画モデル、1つのAPI — Atlas Cloud
 
-> **複数のAPIキー管理にうんざりしていませんか？** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) は、ここに記載されているすべての106動画モデルに対して**統一API**を提供します — Kling、Seedance、Wan、Veo、Hailuo、Vidu など。1つのAPIキー、1つのエンドポイント、1つの課金システム。**初回チャージで25%ボーナス（最大$100）。**
+> **複数のAPIキー管理にうんざりしていませんか？** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) は、ここに記載されているすべての106動画モデルに対して**統一API**を提供します — Kling、Seedance、Wan、Veo、Hailuo、Vidu など。1つのAPIキー、1つのエンドポイント、1つの課金システム。**初回チャージで25%ボーナス（最大$100）。**
 
 > 🔒 **エンタープライズグレードのセキュリティ** — Atlas Cloudは**SOC I & II認証取得済み** | **HIPAA準拠** | 米国企業で99.9%稼働率SLA。
 
@@ -713,7 +713,7 @@ for (const model of models) {
 | $2,000 – $9,999 | 15% |
 | $10,000+ | カスタム |
 
-> **🎁 新規ユーザーは初回チャージで25%ボーナス（最大$100）。** [登録はこちら →](https://www.atlascloud.ai?ref=JPM683)
+> **🎁 新規ユーザーは初回チャージで25%ボーナス（最大$100）。** [登録はこちら →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 
 ### Atlas Cloud vs fal.ai 料金比較
 
@@ -779,11 +779,11 @@ for (const model of models) {
 
 ### 最安のAI動画生成APIは？
 
-Wan 2.2 Spicyの**$0.03/秒から**が最安です。Wan 2.6は**$0.07/秒から**で品質と価格の最良バランスです。[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)なら初回チャージで25%ボーナス付き。
+Wan 2.2 Spicyの**$0.03/秒から**が最安です。Wan 2.6は**$0.07/秒から**で品質と価格の最良バランスです。[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)なら初回チャージで25%ボーナス付き。
 
 ### APIでAI動画を生成するには？
 
-1. [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)で登録
+1. [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)で登録
 2. ダッシュボードからAPIキーを取得
 3. プロンプトとモデルを含むPOSTリクエストを送信
 4. ステータスエンドポイントをポーリング
@@ -805,7 +805,7 @@ Wan 2.2 Spicyの**$0.03/秒から**が最安です。Wan 2.6は**$0.07/秒から
 
 ### NSFWコンテンツに最適なモデルは？
 
-**Wan 2.2 Spicy**は$0.03/秒からで無検閲コンテンツに特化。[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)のKlingやSeedance向け無検閲モードも利用可能です。
+**Wan 2.2 Spicy**は$0.03/秒からで無検閲コンテンツに特化。[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)のKlingやSeedance向け無検閲モードも利用可能です。
 
 ### ローカルでAI動画を生成するには？
 
@@ -833,7 +833,7 @@ Wan 2.2 Spicyの**$0.03/秒から**が最安です。Wan 2.6は**$0.07/秒から
 
 <div align="center">
 
-### 👉 [Atlas Cloudを無料で始める](https://www.atlascloud.ai?ref=JPM683)
+### 👉 [Atlas Cloudを無料で始める](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 
 *50,000人以上のクリエイターと開発者が利用中*
 

@@ -7,7 +7,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Models](https://img.shields.io/badge/Video%20Models-106-blue.svg)](https://www.atlascloud.ai?ref=JPM683)
+[![Models](https://img.shields.io/badge/Video%20Models-106-blue.svg)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 [![Last Updated](https://img.shields.io/badge/Updated-March%202026-green.svg)](#)
 
 **A curated collection of AI video generation models, tools, APIs, and resources.**
@@ -25,7 +25,7 @@
 
 ## 🚀 106 Video Models, One API — Atlas Cloud
 
-> **Tired of juggling multiple API keys?** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) provides a **unified API** for all 106 video models listed here — Kling, Seedance, Wan, Veo, Hailuo, Vidu, and more. One API key, one endpoint, one billing system. **25% bonus on your first recharge (up to $100).**
+> **Tired of juggling multiple API keys?** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) provides a **unified API** for all 106 video models listed here — Kling, Seedance, Wan, Veo, Hailuo, Vidu, and more. One API key, one endpoint, one billing system. **25% bonus on your first recharge (up to $100).**
 
 > 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | US-based company with 99.9% uptime SLA.
 
@@ -763,7 +763,7 @@ For models that support native audio (Kling 3.0, Seedance v1.5, Wan 2.6, Veo 3, 
 | $2,000 – $9,999 | 15% |
 | $10,000+ | Custom pricing |
 
-> **🎁 New users get 25% bonus on first recharge (up to $100 bonus).** [Sign up here →](https://www.atlascloud.ai?ref=JPM683)
+> **🎁 New users get 25% bonus on first recharge (up to $100 bonus).** [Sign up here →](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 
 ### Atlas Cloud vs fal.ai Pricing
 
@@ -829,11 +829,11 @@ The "best" depends on your needs:
 
 ### What is the cheapest AI video generation API?
 
-Wan 2.2 Spicy at **from $0.03/s** is the cheapest commercial API available. Wan 2.6 at **from $0.07/s** offers the best quality-to-price ratio. Via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683), you also get a 25% bonus on first recharge.
+Wan 2.2 Spicy at **from $0.03/s** is the cheapest commercial API available. Wan 2.6 at **from $0.07/s** offers the best quality-to-price ratio. Via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation), you also get a 25% bonus on first recharge.
 
 ### How to generate AI video with API?
 
-1. Sign up at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)
+1. Sign up at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 2. Get your API key from the dashboard
 3. Send a POST request with your prompt and model choice
 4. Poll the status endpoint until generation completes
@@ -857,7 +857,7 @@ See the [Quick Start section](#-quick-start--unified-api) for complete code exam
 
 ### What is the best AI video model for NSFW content?
 
-**Wan 2.2 Spicy** is specifically designed for uncensored content at just from $0.03/s. Additionally, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) offers an uncensored mode for select premium models like Kling and Seedance, providing higher quality NSFW generation.
+**Wan 2.2 Spicy** is specifically designed for uncensored content at just from $0.03/s. Additionally, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) offers an uncensored mode for select premium models like Kling and Seedance, providing higher quality NSFW generation.
 
 ### How to generate AI video locally?
 
@@ -878,7 +878,7 @@ Atlas Cloud currently supports **106 video models** from 6 providers: Kuaishou (
 ### Is there a free AI video generator?
 
 While most high-quality models require payment, you can:
-1. **Free trial:** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) offers free credits on signup
+1. **Free trial:** [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation) offers free credits on signup
 2. **Open source:** Deploy Wan 2.1/2.2 locally for free (hardware costs apply)
 3. **Community:** Use Hugging Face Spaces for basic video generation
 
@@ -912,7 +912,7 @@ Why limit yourself to one model? Atlas Cloud gives you access to every major AI 
 
 <div align="center">
 
-### 👉 [Start Free on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)
+### 👉 [Start Free on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-ai-video-generation)
 
 *Join 50,000+ creators and developers using Atlas Cloud*
 
